@@ -166,5 +166,6 @@ footer{
 @media (max-width: 600px){
     aside > ul {
         columns: 1;
+        padding: 10px 0px 0px 30px;
     }
 }
