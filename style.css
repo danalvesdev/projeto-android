@@ -133,7 +133,7 @@ div.video > iframe{
 
 aside{
     background-color: rgb(196, 255, 235);
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgb(0,0,0,0.281);
 }
@@ -143,6 +143,10 @@ aside > ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
+}
+
+aside > ul li {
+    white-space: nowrap;
 }
 
 #fimp{
